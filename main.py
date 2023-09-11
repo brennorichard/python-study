@@ -4,16 +4,16 @@ import os
 import time
 
 # Definindo caminhos para execução dos exercícios
-caminho_ex1 = os.path.abspath('/home/brenno/Documentos/estudo/python-study/exercicios/ex1.py')
-caminho_ex2 = os.path.abspath('/home/brenno/Documentos/estudo/python-study/exercicios/ex2.py')
-caminho_ex3 = os.path.abspath('/home/brenno/Documentos/estudo/python-study/exercicios/ex3.py')
-caminho_ex4 = os.path.abspath('/home/brenno/Documentos/estudo/python-study/exercicios/ex4.py')
-caminho_ex5 = os.path.abspath('/home/brenno/Documentos/estudo/python-study/exercicios/ex5.py')
-caminho_ex6 = os.path.abspath('/home/brenno/Documentos/estudo/python-study/exercicios/ex6.py')
-caminho_ex7 = os.path.abspath('/home/brenno/Documentos/estudo/python-study/exercicios/ex7.py')
-caminho_ex8 = os.path.abspath('/home/brenno/Documentos/estudo/python-study/exercicios/ex8.py')
-caminho_ex9 = os.path.abspath('/home/brenno/Documentos/estudo/python-study/exercicios/ex9.py')
-caminho_ex10 = os.path.abspath('/home/brenno/Documentos/estudo/python-study/exercicios/ex10.py')
+caminho_ex1 = os.path.relpath('python-study/exercicios/ex1.py')
+caminho_ex2 = os.path.relpath('python-study/exercicios/ex2.py')
+caminho_ex3 = os.path.relpath('python-study/exercicios/ex3.py')
+caminho_ex4 = os.path.relpath('python-study/exercicios/ex4.py')
+caminho_ex5 = os.path.relpath('python-study/exercicios/ex5.py')
+caminho_ex6 = os.path.relpath('python-study/exercicios/ex6.py')
+caminho_ex7 = os.path.relpath('python-study/exercicios/ex7.py')
+caminho_ex8 = os.path.relpath('python-study/exercicios/ex8.py')
+caminho_ex9 = os.path.relpath('python-study/exercicios/ex9.py')
+caminho_ex10 = os.path.relpath('python-study/exercicios/ex10.py')
 
 # Printando lista de opções
 resposta = ""
