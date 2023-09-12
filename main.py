@@ -14,13 +14,18 @@ caminho_ex7 = os.path.relpath('python-study/exercicios/ex7.py')
 caminho_ex8 = os.path.relpath('python-study/exercicios/ex8.py')
 caminho_ex9 = os.path.relpath('python-study/exercicios/ex9.py')
 caminho_ex10 = os.path.relpath('python-study/exercicios/ex10.py')
+caminho_ex11 = os.path.relpath('python-study/exercicios/ex11.py')
+caminho_ex12 = os.path.relpath('python-study/exercicios/ex12.py')
+caminho_ex13 = os.path.relpath('python-study/exercicios/ex13.py')
+caminho_ex14 = os.path.relpath('python-study/exercicios/ex14.py')
+caminho_ex15 = os.path.relpath('python-study/exercicios/ex15.py')
 
 # Printando lista de opções
 resposta = ""
 
 while resposta != 0:
     print(" ")
-    print("LISTA DE EXERCÍCIOS:\n[0] SAIR\n[1] Exercício 1 - Olá Mundo\n[2] Exercício 2 - Apresentação\n[3] Exercício 3 - Soma de Inteiros\n[4] Exercício 4 - Dissecando uma variável\n[5] Exercício 5 - Antecessor e Sucessor\n[6] Exercício 6 - Dobro, Triplo e Raiz quadrada\n[7] Exercício 7 - Média Aritmética\n[8] Exercício 8 - Conversão de medidas\n[9] Exercício 9 - Tabuada \n[10] Exercício 10 - Conversor de Dólar")
+    print("LISTA DE EXERCÍCIOS:\n[0] SAIR\n[1] Exercício 1 - Olá Mundo\n[2] Exercício 2 - Apresentação\n[3] Exercício 3 - Soma de Inteiros\n[4] Exercício 4 - Dissecando uma variável\n[5] Exercício 5 - Antecessor e Sucessor\n[6] Exercício 6 - Dobro, Triplo e Raiz quadrada\n[7] Exercício 7 - Média Aritmética\n[8] Exercício 8 - Conversão de medidas\n[9] Exercício 9 - Tabuada \n[10] Exercício 10 - Conversor de Dólar\n[11] Exercício 11 - Pintura de parede\n[12] Exercício 12 - Desconto do produto\n[13] Exercício 13 - Aumento no salário\n[14] Exercício 14 - Conversor de temperatura\n[15] Exercício 15 - Aluguel de carros")
     print(" ")
     resposta = int(input("Digite o número do exercíco que deseja executar: "))
     
@@ -110,6 +115,51 @@ while resposta != 0:
         print("Executando exercício 10...")
         time.sleep(2)
         subprocess.run(['python3', caminho_ex10])
+        print(" ")
+        time.sleep(2)
+        resposta = int(input("Deseja continuar?\n[0] NÃO (ENCERRA O PROGRAMA) \n[1] SIM (RETORNA A LISTAGEM)\n"))
+
+    elif resposta == 11:
+        print(" ")
+        print("Executando exercício 11...")
+        time.sleep(2)
+        subprocess.run(['python3', caminho_ex11])
+        print(" ")
+        time.sleep(2)
+        resposta = int(input("Deseja continuar?\n[0] NÃO (ENCERRA O PROGRAMA) \n[1] SIM (RETORNA A LISTAGEM)\n"))
+    
+    elif resposta == 12:
+        print(" ")
+        print("Executando exercício 12...")
+        time.sleep(2)
+        subprocess.run(['python3', caminho_ex12])
+        print(" ")
+        time.sleep(2)
+        resposta = int(input("Deseja continuar?\n[0] NÃO (ENCERRA O PROGRAMA) \n[1] SIM (RETORNA A LISTAGEM)\n"))
+
+    elif resposta == 13:
+        print(" ")
+        print("Executando exercício 13...")
+        time.sleep(2)
+        subprocess.run(['python3', caminho_ex13])
+        print(" ")
+        time.sleep(2)
+        resposta = int(input("Deseja continuar?\n[0] NÃO (ENCERRA O PROGRAMA) \n[1] SIM (RETORNA A LISTAGEM)\n"))
+
+    elif resposta == 14:
+        print(" ")
+        print("Executando exercício 14...")
+        time.sleep(2)
+        subprocess.run(['python3', caminho_ex14])
+        print(" ")
+        time.sleep(2)
+        resposta = int(input("Deseja continuar?\n[0] NÃO (ENCERRA O PROGRAMA) \n[1] SIM (RETORNA A LISTAGEM)\n"))
+
+    elif resposta == 15:
+        print(" ")
+        print("Executando exercício 15...")
+        time.sleep(2)
+        subprocess.run(['python3', caminho_ex15])
         print(" ")
         time.sleep(2)
         resposta = int(input("Deseja continuar?\n[0] NÃO (ENCERRA O PROGRAMA) \n[1] SIM (RETORNA A LISTAGEM)\n"))
