@@ -1,6 +1,6 @@
 valor = input("Digite algo: ")
 print("O tipo primitivo desse valor é: ", type(valor))
-print("Esse valor só tem espaços: ", valor.isspace())
+print("Esse valor contém apenas espaços: ", valor.isspace())
 print("Esse valor é numérico: ", valor.isnumeric())
 print("Esse valor é alfabético: ", valor.isalpha())
 print("Esse valor é alfanumérico: ", valor.isalnum())
